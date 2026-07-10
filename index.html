@@ -1,0 +1,373 @@
+<!--
+    Some deprecated tags & attributes like (center, leftmargin) 
+    are used because there is no CSS at all in the document and I wanted to style and center some elements to make the page looks good
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MovieKNight</title>
+        <meta name="author" content="Fares Mohamed">
+        <meta name="description" content="MovieKNight - a movie night planning and review hub built with raw HTML.">
+        <meta name="keywords" content="Movie, Film, Movie Night, Movies Hub">
+    </head>
+    <body leftmargin="50px">
+        <header>
+            <center>
+                <h1>MovieKNight</h1>
+                <h2>Plan it. Watch it. Rate it.</h2>
+            </center>
+            <hr>
+            <nav>
+                <ul>
+                    <li><a href="#trailer">Trailer</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#cinema">Find a Cinema</a></li>
+                    <li><a href="#genres">Genres</a></li>
+                    <li><a href="#top-picks">Top Picks</a></li>
+                    <li><a href="#glossary">Glossary</a></li>
+                    <li><a href="#rsvp">RSVP</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main>
+            <!-- Featured Trailer Section -->
+            <section id="trailer">
+                <center>
+                    <h2>Featured Trailer</h2>
+                    <figure>
+                        <video controls width="640" poster="https://picsum.photos/640/360">
+                            <source src="" type="video/mp4">
+                            <source src="" type="video/webm">
+                            <p>Your browser doesn't support embedded videos. You can <a href="">download the
+                                trailer</a> instead.</p>
+                        </video>
+                        <figcaption>Official Trailer &mdash; <cite>Horizon Drift</cite> (2026)</figcaption>
+                    </figure>
+                </center>
+                <hr>
+            </section>
+            <!-- Poster Gallery Section -->
+            <section id="gallery">
+                <center>
+                    <h2>Poster Gallery</h2>
+                    <figure>
+                        <img src="images/spiderman-no-way-home.jpg"
+                            srcset="./images/spiderman-no-way-home.jpg"
+                            alt="Poster Spider-man No Way Home film">
+                        <figcaption>Spider-man No Way Home (2021)</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/no-time-to-die.jpg" alt="Poster placeholder for No Time to Die, a James Bond film">
+                        <figcaption>No Time to Die (2021)</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/the-avengers.jpg"
+                            alt="Poster placeholder for The Avengers, a Marvel superhero team-up film">
+                        <figcaption>The Avengers (2012)</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/avengers-end-game.jpg"
+                            alt="Poster placeholder for Avengers: Endgame, a Marvel superhero film">
+                        <figcaption>Avengers: Endgame (2019)</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/mugen-train.jpg"
+                            alt="Poster placeholder for Demon Slayer: Mugen Train, an anime film">
+                        <figcaption>Demon Slayer: Kimetsu no Yaiba &mdash; Mugen Train (2020)</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/infinity-castle.jpg"
+                            alt="Poster placeholder for Demon Slayer: To the Swordsmith Village, an anime film">
+                        <figcaption>Demon Slayer: Kimetsu no Yaiba &mdash; The Infinity Castle (2025)</figcaption>
+                    </figure>
+                </center>
+            </section>
+            <!-- Cinema Location Section -->
+            <section id="cinema">
+                <center>
+                    <h2>Find a Cinema</h2>
+                    <iframe src="https://www.google.com/maps?q=cinema,Egypt&output=embed" width="750" height="450" loading="lazy"
+                        title="Map showing nearby cinema location">
+                    </iframe>
+                    <address>
+                        Golden Reel Cinema<br>
+                        12 Fifth Avenue<br>
+                        Cairo, Egypt<br>
+                        Email: <a href="mailto:movieknightcinemas@entertainment.eg">movieknightcinemas@entertainment.eg</a>
+                    </address>
+                </center>
+            </section>
+            <!-- Movie Genres Section -->
+            <section id="genres">
+                <hr>
+                <h2>Browse by Genre</h2>
+                <ul>
+                    <li>Action</li>
+                    <li>Drama</li>
+                    <li>
+                        Sci-Fi
+                        <ul>
+                            <li>Space Opera</li>
+                            <li>Cyberpunk</li>
+                            <li>Time Travel</li>
+                        </ul>
+                    </li>
+                    <li>Horror</li>
+                    <li>Comedy</li>
+                    <li>Documentary</li>
+                </ul>
+            </section>
+            <!-- Top Picks Section -->
+            <section id="top-picks">
+                <h2>Top 10 Picks This Month</h2>
+                <h3>Editor's Ranking</h3>
+                <ol type="1">
+                    <li>Spider-man No Way Home</li>
+                    <li>No Time to Die</li>
+                    <li>The Avengers</li>
+                    <li>Avengers: Endgame</li>
+                    <li>Demon Slayer: Mugen Train</li>
+                    <li>Demon Slayer: To the Swordsmith Village</li>
+                    <li>Casino Royale</li>
+                    <li>Iron Man</li>
+                    <li>Spider-Man: No Way Home</li>
+                    <li>GoldenEye</li>
+                </ol>
+                <h3>Alternate Ranking by Critics</h3>
+                <ol type="A">
+                    <li>No Time to Die</li>
+                    <li>Spider-man No Way Home</li>
+                    <li>Spider-Man: No Way Home</li>
+                    <li>The Avengers</li>
+                </ol>
+                <h3>Ranking by Box Office</h3>
+                <ol type="i">
+                    <li>Avengers: Endgame</li>
+                    <li>Spider-Man: No Way Home</li>
+                    <li>The Avengers</li>
+                </ol>
+                <h3>Runners-Up (continuing the count)</h3>
+                <ol start="5">
+                    <li>Demon Slayer: Mugen Train</li>
+                    <li>Casino Royale</li>
+                    <li>Iron Man</li>
+                </ol>
+                <h3>Countdown to #1</h3>
+                <ol reversed>
+                    <li>Spider-man No Way Home</li>
+                    <li>No Time to Die</li>
+                    <li>The Avengers</li>
+                    <li>Avengers: Endgame</li>
+                    <li>Demon Slayer: Mugen Train</li>
+                    <li>Demon Slayer: To the Swordsmith Village</li>
+                    <li>Casino Royale</li>
+                    <li>Iron Man</li>
+                    <li>Spider-Man: No Way Home</li>
+                    <li>GoldenEye</li>
+                </ol>
+            </section>
+            <!-- Glossary Section -->
+            <section id="glossary">
+                <hr>
+                <center>
+                    <h2>Film Terms Glossary</h2>
+                </center>
+                <dl>
+                    <dt>Director's Cut</dt>
+                    <dd>A version of a film edited according to the director's original vision, often different from the
+                        theatrical release.</dd>
+                    <dt>Box Office</dt>
+                    <dd>The total revenue a film earns from ticket sales.</dd>
+                    <dt>Cameo</dt>
+                    <dd>A brief appearance by a notable person, often playing themselves or a minor role.</dd>
+                    <dt>Trope</dt>
+                    <dd>A recurring theme, device, or convention used across many films.</dd>
+                    <dt>Reboot</dt>
+                    <dd>A new take on an existing franchise that discards prior continuity and starts fresh.</dd>
+                    <dt>Franchise</dt>
+                    <dd>A collection of related films sharing characters, settings, or a storyline.</dd>
+                    <dd>Also used loosely to refer to the media brand as a whole, including merchandise and spin-offs.</dd>
+                    <dt>Post-Credits Scene</dt>
+                    <dd>A short scene shown after the credits roll, often hinting at a sequel or connected story.</dd>
+                    <dt>Practical Effects</dt>
+                    <dd>Visual effects created physically on set (models, makeup, animatronics) rather than digitally.</dd>
+                </dl>
+            </section>
+            <!-- RSVP Form Section -->
+            <section id="rsvp">
+                <hr>
+                <center>
+                    <h2>Movie Night RSVP</h2>
+                </center>
+                <form method="get" action="#">
+                    <fieldset>
+                        <legend>Your Info</legend>
+                        <p>
+                            <label for="fullname">Full Name</label><br>
+                            <input type="text" id="fullname" name="fullname" required>
+                        </p>
+                        <p>
+                            <label for="email">Email</label><br>
+                            <input type="email" id="email" name="email" required>
+                        </p>
+                        <p>
+                            <label for="phone">Phone Number</label><br>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" placeholder="01XXXXXXXXX">
+                        </p>
+                        <p>
+                            <label for="profile">Letterboxd / Social Profile (optional)</label><br>
+                            <input type="url" id="profile" name="profile" placeholder="https://letterboxd.com/yourname">
+                        </p>
+                        <p>
+                            <label for="accesscode">Set a Watch-Party Access Code</label><br>
+                            <input type="password" id="accesscode" name="accesscode">
+                        </p>
+                        <p>
+                            <label for="movie-search">Search for a Movie to Suggest</label><br>
+                            <input type="search" id="movie-search" name="movie-search" list="movie-suggestions">
+                            <datalist id="movie-suggestions">
+                                <option value="Spider-man No Way Home">
+                                <option value="No Time to Die">
+                                <option value="The Avengers">
+                                <option value="Avengers: Endgame">
+                                <option value="Demon Slayer: Mugen Train">
+                            </datalist>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Preferences</legend>
+                        <p>
+                            <label for="pref-date">Preferred Movie Night Date</label><br>
+                            <input type="date" id="pref-date" name="pref-date">
+                        </p>
+                        <p>
+                            <label for="pref-time">Preferred Start Time</label><br>
+                            <input type="time" id="pref-time" name="pref-time">
+                        </p>
+                        <p>
+                            <label for="pref-datetime">Alternative Exact Date &amp; Time (Remote Hosting)</label><br>
+                            <input type="datetime-local" id="pref-datetime" name="pref-datetime">
+                        </p>
+                        <p>
+                            <label for="pref-month">Which Month Are You Most Free?</label><br>
+                            <input type="month" id="pref-month" name="pref-month">
+                        </p>
+                        <p>
+                            <label for="pref-week">Which Week Works Best?</label><br>
+                            <input type="week" id="pref-week" name="pref-week">
+                        </p>
+                        <p>
+                            <label for="guests">Number of Guests You're Bringing</label><br>
+                            <input type="number" id="guests" name="guests" min="0" max="10" step="1" value="1">
+                        </p>
+                        <p>
+                            <label for="excitement">Rate Your Excitement</label><br>
+                            <input type="range" id="excitement" name="excitement" min="1" max="10" step="1" value="5">
+                            <output for="excitement">5</output>
+                        </p>
+                        <p>
+                            <label for="theme-color">Pick a Theme Color for the Night</label><br>
+                            <input type="color" id="theme-color" name="theme-color" value="#331144">
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Choices</legend>
+                        <p>Preferred Genre for Tonight</p>
+                        <p>
+                            <input type="radio" id="genre-action" name="genre" value="action">
+                            <label for="genre-action">Action</label>
+                        </p>
+                        <p>
+                            <input type="radio" id="genre-drama" name="genre" value="drama">
+                            <label for="genre-drama">Drama</label>
+                        </p>
+                        <p>
+                            <input type="radio" id="genre-scifi" name="genre" value="scifi">
+                            <label for="genre-scifi">Sci-Fi</label>
+                        </p>
+                        <p>
+                            <input type="radio" id="genre-horror" name="genre" value="horror">
+                            <label for="genre-horror">Horror</label>
+                        </p>
+                        <p>Snacks You're Bringing</p>
+                        <p>
+                            <input type="checkbox" id="snack-popcorn" name="snacks" value="popcorn">
+                            <label for="snack-popcorn">Popcorn</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="snack-nachos" name="snacks" value="nachos">
+                            <label for="snack-nachos">Nachos</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="snack-soda" name="snacks" value="soda">
+                            <label for="snack-soda">Soda</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="snack-candy" name="snacks" value="candy">
+                            <label for="snack-candy">Candy</label>
+                        </p>
+                        <p>
+                            <label for="seating">Preferred Seating</label><br>
+                            <select id="seating" name="seating">
+                                <option value="couch">Couch</option>
+                                <option value="floor-cushions">Floor Cushions</option>
+                                <option value="beanbag">Bean Bag</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="seen-movies">Movies You've Already Seen</label><br>
+                            <select id="seen-movies" name="seen-movies" multiple size="5">
+                                <option value="spider-man-no-way-home">Spider-man No Way Home</option>
+                                <option value="no-time-to-die">No Time to Die</option>
+                                <option value="the-avengers">The Avengers</option>
+                                <option value="avengers-endgame">Avengers: Endgame</option>
+                                <option value="demon-slayer-mugen-train">Demon Slayer: Mugen Train</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="notes">Any Notes for the Host?</label><br>
+                            <textarea id="notes" name="notes" rows="4" cols="40"
+                                placeholder="Allergies, seating needs, etc."></textarea>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Extras</legend>
+                        <p>
+                            <label for="snack-photo">Upload a Snack Photo</label><br>
+                            <input type="file" id="snack-photo" name="snack-photo" accept="image/*">
+                        </p>
+                        <input type="hidden" name="event" value="movie-night-2026">
+                        <p>
+                            <label for="seats-filled">Seats Filled</label><br>
+                            <meter id="seats-filled" min="0" max="10" value="7">7 out of 10</meter>
+                        </p>
+                        <p>
+                            <label for="rsvp-deadline">RSVP Deadline Progress</label><br>
+                            <progress id="rsvp-deadline" value="60" max="100">60%</progress>
+                        </p>
+                    </fieldset>
+                    <p>
+                        <center>
+                            <button type="submit">RSVP Now</button>
+                            <button type="reset">Clear Form</button>
+                        </center>
+                    </p>
+                </form>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <hr>
+            <center>
+                <address>
+                    Hosted by KNight &mdash; <a href="mailto:knight@example.com">knight@example.com</a>
+                </address>
+                <p>Last updated: <time datetime="2026-07-09">July 10, 2026</time></p>
+                <p>&copy; 2026 CineVault. All rights reserved.</p>
+            </footer>
+        </center>
+    </body>
+</html>
