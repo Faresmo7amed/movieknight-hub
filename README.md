@@ -1,5 +1,7 @@
 # MovieKNight 🎬
 
+🌐 **Live Demo:** https://movieknight-hub.pages.dev
+
 A movie night planning and review hub built using **pure HTML5**.
 
 The project presents a fictional movie platform where users can explore movie trailers, browse posters, find cinemas, view movie genres, check top picks, learn film terminology, and submit a movie night RSVP form.
